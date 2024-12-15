@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { FaPlus } from "react-icons/fa";
 
 const AddTaskForm = ({ onAddTask }) => {
   const [title, setTitle] = useState("");

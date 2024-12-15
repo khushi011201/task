@@ -95,7 +95,7 @@ const TaskManager = () => {
       {/* Navbar */}
       <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: "#343a40" }}>
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand">
             Task Manager
           </a>
           <button
@@ -127,7 +127,6 @@ const TaskManager = () => {
       </nav>
 
       <div className="container mt-8">
-        <h1 className="text-primary mb-4 text-center"></h1>
         <div className="row">
           <div className="col-md-6">
             <div className="mb-4">
